@@ -99,15 +99,15 @@ h2{
 
 .flex-item-left{
     display: flex;
-    background-color: #000000;
+    background-color: #dbdbdb;
     flex-grow: 1;
   }
 
 #ani{
-    color: rgb(215, 215, 215);
+    color: rgb(24, 24, 24);
     margin-left: 10%;
     margin-top: 60pt;
-    font-size: 15pt;
+    font-size: 20pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -119,8 +119,14 @@ h2{
 }
 
 h3{
-    color: rgb(219, 219, 219);
+    color: rgb(25, 25, 25);
     margin-top: 60pt;
     font-size: 25pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex-item-finepagina{
+    display: flex;
+    background-color: #fbfbfb;
+    flex-grow: 1;
 }

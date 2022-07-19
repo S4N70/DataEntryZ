@@ -1,0 +1,17 @@
+
+@keyframes myanimation{
+    from {font-size: 10pt; }
+    to{font-size: 30pt;}
+    }
+
+@keyframes Inserimentosinistra{
+    from{margin: 0pt;}
+        to{padding:1em 2em;
+            border-radius:0.35em;
+            margin-left: 40pt;}
+    }
+
+@keyframes SinistraDestra{
+    from{margin-left: 0pt;}
+    to{margin-left: 10%;}
+}

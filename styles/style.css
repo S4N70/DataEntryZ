@@ -151,3 +151,11 @@ ul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 20%;
 }
+
+.flex-container-secondop{
+    display: flex;
+    flex-grow: 1;
+    font-size: 30px;
+    margin-left: 20vh;
+    align-content:flex-end;
+}

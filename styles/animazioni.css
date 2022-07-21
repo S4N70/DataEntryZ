@@ -15,3 +15,8 @@
     from{margin-left: 0pt;}
     to{margin-left: 10%;}
 }
+
+@keyframes Dissolvenza{
+    from{color:#ffffff}
+    to{color:#6c6c72}
+}

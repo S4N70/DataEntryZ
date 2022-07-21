@@ -3,14 +3,19 @@ body{
 	color: #6c6c72;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 10pt;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    background-image:  repeating-radial-gradient( circle at 0 0, #ffffff 40px ), repeating-linear-gradient( #3b3be455, #3b3be4 );
 	}
 
 h1{ 
-   margin-left: 2%;
+   margin:0;
+   padding:0;
    font-size: 30pt;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    animation: myanimation 3s;
    cursor:pointer;
+   background:rgb(7, 25, 51);
 }
 
 h1:hover{
@@ -156,6 +161,18 @@ ul{
     display: flex;
     flex-grow: 1;
     font-size: 30px;
-    margin-left: 20vh;
     align-content:flex-end;
+}
+
+.flex-container-secondop > div > h2{
+    animation: Dissolvenza 10s;
+}
+
+#logo{
+    width: 5vh;
+    height: 5vh;
+}
+
+h5{
+    margin: 10vh;
 }

@@ -1,178 +1,161 @@
-
-body{
-	color: #6c6c72;
+body {
+	color: #121212;
 	font-family: Verdana, Arial, sans-serif;
-	font-size: 10pt;
     background-color: #ffffff;
-    background-color: #ffffff;
-    background-image:  repeating-radial-gradient( circle at 0 0, #ffffff 40px ), repeating-linear-gradient( #3b3be455, #3b3be4 );
-	}
-
-h1{ 
-   margin:0;
-   padding:0;
-   font-size: 30pt;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   animation: myanimation 3s;
-   cursor:pointer;
-   background:rgb(7, 25, 51);
+    margin: 0;
+    padding: 0;
 }
 
-h1:hover{
-    color: rgb(210, 34, 34);
-    cursor: pointer;
+/* NAVBAR */
+
+#navbar {
+    display: block;
+    width: 100%;
+    padding: 2% 0;
+    background-color: #0f294f;
 }
 
+#navbar-title {
+    font-size: 3vh;
+    color: white;
+    margin-left: 2%;
+}
 
-button{
-    display:inline-block;
-    padding:1em 2em;
-    border-radius:0.35em;
+a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-button {
+    display: inline-block;
+    background: #04132780;
+    padding: 1em 2em;
     margin-left: 40pt;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:"arial";
-    font-weight:300;
-    color:#ffffff;
-    text-align:center;
-    transition: 0.2s;
-    background:rgb(7, 25, 51);
-    cursor:pointer;
-    animation: Inserimentosinistra 5s;
-    font-weight:bold;
-    perspective-origin: 500pt;
-    text-transform: uppercase;
+    border-radius: 0.35em;
+    color: #0066CC;
+    font-size: 1.5vh;
+    font-weight: bold;
     letter-spacing: 0.08em;
-    }
-    button:hover{
-        background:rgb(15, 27, 156);
-    }
-    button:active, .btn3:focus{
-        background:rgb(108, 116, 206);
-        color:rgb(96,110,255);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    animation: fromLeft 5s;
+    transition: 0.2s;
 }
 
-img{
-    width: 150pt;
-    height: auto;
-    padding: 40px;
+.navbar-button:hover {
+    background: #041327B3;
 }
 
-h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30pt;
-    margin-right: 10%;
-    margin-left: 10%;
+.navbar-button:active {
+    background: #041327;
 }
+
+/* 1st SECTION */
 
 .flex-container {
     display: flex;
-    width: 1000pt;
-  }
+    width: 100%;
+}
   
-  .flex-container > div {
-    font-size: 30px;
-    margin: 5px;
-  }
+.flex-container > div {
+    font-size: 4vh;
+    width: 50%;
+    margin: 4%;
+}
 
+#logo {
+    width: 12vmax;
+    height: 12vmax;
+    margin: 4% 0 0 10%;
+    align-self: flex-start;
+}
 
-#Pulsante1{
-    display:inline-block;
-    padding:1em 2em;
-    border-style: none;
+.container-button {
+    display: inline-block;
+    background: #40BDA6CC;
+    padding: 1em 2em;
     margin-left: 40pt;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:"arial";
-    font-weight:300;
-    color:#ffffff;
-    text-align:center;
-    background:#40bda6;
-    cursor:pointer;
-    font-weight:bold;
-    perspective-origin: 500pt;
+    border-radius: 0.35em;
+    color: #ffffff;
+    font-size: 1.5vh;
+    text-align: center;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-}
-#Pulsante1:hover{
-    background:rgb(9, 16, 92);
-}
-#Pulsante1:active, .btn3:focus{
-    background:rgb(108, 116, 206);
-    color:rgb(96,110,255);
+    cursor: pointer;
 }
 
-.flex-item-left{
-    display: flex;
+.container-button:hover {
+    background: #40BDA6E6;
+}
+
+.container-button:active {
+    background: #40BDA6;
+}
+
+/* 2nd SECTION */
+
+.bg-light-gray {
     background-color: #dbdbdb;
-    flex-grow: 1;
-  }
+}
 
-#ani{
-    color: rgb(24, 24, 24);
-    margin-left: 10%;
-    margin-top: 60pt;
-    font-size: 20pt;
+#second-section > div {
+    width: 100%;
+    text-align: right;
+    /* padding: 0 2%; */
+}
+
+h3 {
+    font-size: 5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#immagine{
+#grafico {
     height: 350pt;
-     width: 350pt;
-     padding: 40px;
-   
+    width: 350pt;
+    padding: 40px;
+    align-self: flex-start;
 }
 
-h3{
-    color: rgb(25, 25, 25);
-    margin-left: 10%;
-    font-size: 25pt;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+/* 3rd SECTION */
 
-.flex-item-finepagina{
-    display: flex;
-    flex-grow: 1;
-    font-size: 30px;
-    margin: 3%;
-}
-#Ultimaimg{
+#customer-care {
     height: 350pt;
-     width: 450pt;
-     padding: 40px;
+    width: 450pt;
+    padding: 40px;
 }
 
-.flex-item-collegamentirapidi{
+/* FOOTER */
+
+.bg-dark-gray {
+    background-color: #bbbbbb;
+}
+
+#footer {
+    width: 100%;
+    font-size: 1.5vh;
+    padding: 1% 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer > div {
+    width: 100%;
+    margin: 0;
+    font-size: inherit;
+    padding: 0 2%;
     display: flex;
-    background-color:#676F76;
-    flex-grow: 3;
+    justify-content: space-between;
+    align-items: center;
 }
 
-ul{
-    margin: 20vh;
-    list-style-type: none;
-    color: beige;
-    font-size: 20pt;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 20%;
-}
-
-.flex-container-secondop{
+#footer > div > div {
     display: flex;
-    flex-grow: 1;
-    font-size: 30px;
-    align-content:flex-end;
+    justify-content: space-between;
+    width: 10%;
 }
 
-.flex-container-secondop > div > h2{
-    animation: Dissolvenza 10s;
-}
-
-#logo{
-    width: 5vh;
-    height: 5vh;
-}
-
-h5{
-    margin: 10vh;
+.social-svg {
+    width: 2vmax;
 }

@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     padding: 2% 0;
-    background-color: #071933;
+    background-color: #0f294f;
 }
 
 #navbar-title {
@@ -61,13 +61,13 @@ a, a:hover, a:focus, a:active {
 .flex-container > div {
     font-size: 4vh;
     width: 50%;
-    margin: 2%;
+    margin: 4%;
 }
 
 #logo {
     width: 12vmax;
     height: 12vmax;
-    padding: 40px;
+    margin: 4% 0 0 10%;
     align-self: flex-start;
 }
 

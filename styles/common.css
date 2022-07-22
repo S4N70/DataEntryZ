@@ -1,0 +1,80 @@
+body 
+{
+	color: #121212;
+	font-family: Verdana, Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar 
+{
+    display: block;
+    width: 100%;
+    padding: 2% 0;
+    background-color: #0f294f;
+}
+
+#navbar-title 
+{
+    font-size: 3vh;
+    color: white;
+    margin-left: 2%;
+}
+
+a, a:hover, a:focus, a:active 
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.navbar-button 
+{
+    display: inline-block;
+    background: #04132780;
+    padding: 1em 2em;
+    margin-left: 40pt;
+    border-radius: 0.35em;
+    color: #ffffff;
+    font-size: 1.5vh;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    animation: fromLeft 5s;
+    transition: 0.2s;
+}
+
+.navbar-button:hover 
+{
+    color: red;
+    background: #041327B3;
+}
+
+.navbar-button:active
+{
+    background: #041327;
+}
+
+.flex-container
+{
+    display: flex;
+    width: 100%;
+}
+
+.flex-container > div 
+{
+    font-size: 4vh;
+    width: 50%;
+    margin: 4%;
+}
+
+
+h3 
+{
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

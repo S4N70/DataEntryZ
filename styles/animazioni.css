@@ -1,5 +1,4 @@
-@keyframes myanimation 
-{
+@keyframes myanimation {
     from {
         font-size: 10pt;
     }
@@ -8,8 +7,7 @@
     }
 }
 
-@keyframes fromLeft 
-{
+@keyframes fromLeft {
     from {
         margin: 0pt;
     }
@@ -20,8 +18,7 @@
     }
 }
 
-@keyframes SinistraDestra 
-{
+@keyframes SinistraDestra {
     from {
         margin-left: 0pt;
     }
@@ -30,8 +27,7 @@
     }
 }
 
-@keyframes Dissolvenza 
-{
+@keyframes Dissolvenza {
     from {
         color:#ffffff
     }

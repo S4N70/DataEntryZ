@@ -1,0 +1,57 @@
+
+/* CONTENITORI */
+
+.flex-box-secondpag{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.flex-box-secondpag > div{
+    font-size: 29pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 4% 2% 4%;
+}
+
+#RigaIntermedia{
+    color: rgb(43, 43, 43);
+    background-color: rgb(140, 140, 140);
+}
+
+#RigaFinale{
+    color: rgb(213, 213, 213);
+    background-color: rgb(20, 14, 56);
+}
+
+#ImgCentrata{
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(135deg, rgb(20, 14, 56) 25%, transparent 25%), linear-gradient(225deg, rgb(20, 14, 56) 25%, transparent 25%), linear-gradient(45deg, rgb(20, 14, 56) 25%, transparent 25%), linear-gradient(315deg, rgb(20, 14, 56) 25%, #e5e5f7 25%);
+    background-position:  40px 0, 40px 0, 0 0, 0 0;
+    background-size: 80px 80px;
+    background-repeat: repeat;
+    padding: 3% 0 3% 45%;
+}
+
+button 
+{
+    display: inline-block;
+    background: rgb(13, 7, 45);
+    padding: 2.5vh;
+    border-radius: 0.35em;
+    color: #ffffff;
+    font-size: 1.5vh;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background: rgb(26, 11, 106);
+}
+
+button:active 
+{
+    background: rgb(13, 7, 45);
+}

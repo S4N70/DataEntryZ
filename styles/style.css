@@ -67,3 +67,15 @@
     padding: 40px;
 }
 
+/* CONTENITORI */
+
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+
+.flex-container > div {
+    font-size: 4vh;
+    width: 50%;
+    margin: 4%;
+}

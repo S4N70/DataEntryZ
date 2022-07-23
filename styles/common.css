@@ -1,7 +1,6 @@
 /* BODY */
 
-body 
-{
+body {
 	color: #121212;
 	font-family: Verdana, Arial, sans-serif;
     background-color: #ffffff;
@@ -11,30 +10,26 @@ body
 
 /* NAVBAR */
 
-#navbar 
-{
+#navbar {
     display: block;
     width: 100%;
     padding: 2% 0;
     background-color: #0f294f;
 }
 
-#navbar-title 
-{
+#navbar-title {
     font-size: 3vh;
     color: white;
     margin-left: 2%;
 }
 
-a, a:hover, a:focus, a:active 
-{
+a, a:hover, a:focus, a:active {
     color: inherit;
     text-decoration: none;
 }
 
 
-.navbar-button 
-{
+.navbar-button {
     display: inline-block;
     background: #04132780;
     padding: 1em 2em;
@@ -51,48 +46,28 @@ a, a:hover, a:focus, a:active
     transition: 0.2s;
 }
 
-.navbar-button:hover 
-{
+.navbar-button:hover {
     color: red;
     background: #041327B3;
 }
 
-.navbar-button:active
-{
+.navbar-button:active{
     background: #041327;
 }
 
-/* CONTENITORI */
 
-.flex-container
-{
-    display: flex;
-    width: 100%;
-}
-
-.flex-container > div 
-{
-    font-size: 4vh;
-    width: 50%;
-    margin: 4%;
-}
-
-
-h3 
-{
+h3 {
     font-size: 5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* FOOTER */
 
-.bg-dark-gray 
-{
+.bg-dark-gray {
     background-color: #bbbbbb;
 }
 
-#footer 
-{
+#footer {
     width: 100%;
     font-size: 1.5vh;
     padding: 1% 0;
@@ -100,8 +75,7 @@ h3
     align-items: center;
 }
 
-#footer > div 
-{
+#footer > div {
     width: 100%;
     margin: 0;
     font-size: inherit;
@@ -111,15 +85,13 @@ h3
     align-items: center;
 }
 
-#footer > div > div 
-{
+#footer > div > div {
     display: flex;
     justify-content: space-between;
     width: 10%;
 }
 
-.social-svg 
-{
+.social-svg {
     width: 2vmax;
 }
 

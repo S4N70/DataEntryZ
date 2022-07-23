@@ -25,11 +25,14 @@
 #ImgCentrata{
     background-color: #e5e5f7;
     background-image:  linear-gradient(135deg, rgb(20, 14, 56) 25%, transparent 25%), linear-gradient(225deg, rgb(20, 14, 56) 25%, transparent 25%), linear-gradient(45deg, rgb(20, 14, 56) 25%, transparent 25%), linear-gradient(315deg, rgb(20, 14, 56) 25%, #e5e5f7 25%);
-    background-position:  40px 0, 40px 0, 0 0, 0 0;
+    background-position:  40px 0, 0 0, 0 0, 0 0;
     background-size: 80px 80px;
     background-repeat: repeat;
-    padding: 3% 0 3% 45%;
 }
+#ImgCentrata > img{
+    margin: 2% 2% 2% 45%;
+}
+
 
 button 
 {

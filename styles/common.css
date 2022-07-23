@@ -1,3 +1,5 @@
+/* BODY */
+
 body 
 {
 	color: #121212;
@@ -6,6 +8,8 @@ body
     margin: 0;
     padding: 0;
 }
+
+/* NAVBAR */
 
 #navbar 
 {
@@ -58,6 +62,8 @@ a, a:hover, a:focus, a:active
     background: #041327;
 }
 
+/* CONTENITORI */
+
 .flex-container
 {
     display: flex;
@@ -77,4 +83,44 @@ h3
     font-size: 5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* FOOTER */
+
+.bg-dark-gray 
+{
+    background-color: #bbbbbb;
+}
+
+#footer 
+{
+    width: 100%;
+    font-size: 1.5vh;
+    padding: 1% 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer > div 
+{
+    width: 100%;
+    margin: 0;
+    font-size: inherit;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer > div > div 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.social-svg 
+{
+    width: 2vmax;
+}
+
 

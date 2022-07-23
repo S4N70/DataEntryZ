@@ -56,11 +56,6 @@ a, a:hover, a:focus, a:active {
 }
 
 
-h3 {
-    font-size: 5vh;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 /* FOOTER */
 
 .bg-dark-gray {
@@ -95,4 +90,27 @@ h3 {
     width: 2vmax;
 }
 
+/*contenitori*/
+
+.flex-box-secondpag{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.flex-box-secondpag > div{
+    font-size: 29pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 4% 2% 4%;
+}
+
+/*elementi e immagini*/
+
+#ImgCentrata > img{
+    margin: 2% 2% 2% 45%;
+}
+
+h3 {
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 

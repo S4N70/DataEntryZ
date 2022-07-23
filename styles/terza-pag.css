@@ -1,0 +1,15 @@
+
+#sfondo{
+    height: 60vh;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.paragrafo{
+    color: rgb(53, 60, 60);
+    margin: 0 auto;
+    font-size: 4vh;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}

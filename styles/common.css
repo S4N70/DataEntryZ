@@ -98,6 +98,7 @@ a, a:hover, a:focus, a:active {
 
 .flex-box-secondpag{
     display: flex;
+    flex-flow: row;
     text-align: center;
     width: 100%;
 }
@@ -128,7 +129,7 @@ h3 {
 
 .paragrafo{
     color: rgb(53, 60, 60);
-    margin: 0 auto;
+    margin: 0 auto 4% auto;
     font-size: 4vh;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -177,6 +178,10 @@ h3 {
         font-size: 25pt;
         margin: 0 auto 2% auto;
         width: 80%;
+    }
+    
+    .flex-box-secondpag {
+        flex-flow: column;
     }
 }
 

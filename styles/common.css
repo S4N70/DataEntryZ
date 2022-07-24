@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -15,12 +16,14 @@ body {
     width: 100%;
     padding: 2% 0;
     background-color: #0f294f;
+    text-align: left;
 }
 
 #navbar-title {
+    display: inline-block;
     font-size: 3vh;
     color: white;
-    margin-left: 2%;
+    margin: 0 0 0 2%;
 }
 
 a, a:hover, a:focus, a:active {
@@ -84,6 +87,7 @@ a, a:hover, a:focus, a:active {
     display: flex;
     justify-content: space-between;
     width: 10%;
+    margin: 0 2% 0 0;
 }
 
 .social-svg {
@@ -136,4 +140,65 @@ h3 {
 
 }
 
+/* RESPONSIVE */
+
+@media (max-width: 575.98px) {
+    #navbar {
+        text-align: center;
+    }
+
+    .navbar-button {
+        display: block;
+        margin-left: 0;
+        border-radius: 0;
+        animation: none;
+    }
+
+    #navbar-title {
+        margin: 2% auto 4% auto;
+        display: block;
+    }
+
+    #footer {
+        padding: 2% 0;
+    }
+
+    #footer > div > div {
+        width: 25%;
+    }
+
+    .social-svg {
+        width: 3vmax;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #navbar {
+        text-align: center;
+    }
+
+    .navbar-button {
+        display: block;
+        margin-left: 0;
+        border-radius: 0;
+        animation: none;
+    }
+
+    #navbar-title {
+        margin: 2% auto 4% auto;
+        display: block;
+    }
+
+    #footer {
+        padding: 2% 0;
+    }
+
+    #footer > div > div {
+        width: 20%;
+    }
+
+    .social-svg {
+        width: 3vmax;
+    }
+}
 

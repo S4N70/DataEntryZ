@@ -71,6 +71,8 @@
 
 .flex-container{
     display: flex;
+    flex-flow: row;
+    align-items: stretch; /* default value */
     width: 100%;
 }
 
@@ -78,6 +80,97 @@
     font-size: 4vh;
     width: 50%;
     margin: 4%;
+    text-align: left;
 }
 
 
+/* RESPONSIVE */
+
+@media (max-width: 575.98px) {
+    .container-button {
+        display: block;
+        margin-left: 0;
+    }
+
+    .flex-container {
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 10% 0 0 0;
+        align-self: center;
+    }
+
+    .flex-container > div {
+        width: 80%;
+        text-align: center;
+    }
+
+    #grafico {
+        height: 250pt;
+        width: 250pt;
+        padding: 0;
+        align-self: center;
+    }
+
+    #second-section > div {
+        width: 80%;
+        text-align: center;
+    }
+
+    #customer-care {
+        height: auto;
+        width: 350pt;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container-button {
+        display: block;
+        margin-left: 0;
+    }
+
+    .flex-container {
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 10% 0 0 0;
+        align-self: center;
+        width: 16vmax;
+        height: 16vmax;;
+    }
+
+    .flex-container > div {
+        width: 80%;
+        text-align: center;
+    }
+
+    #grafico {
+        padding: 0;
+        align-self: center;
+    }
+
+    #second-section > div {
+        width: 80%;
+        text-align: center;
+    }
+
+    #customer-care {
+        height: auto;
+    }
+}
+
+@media (min-width: 3839.00px) {
+    #grafico {
+        height: 25vmax;
+        width: 25vmax;
+    }
+
+    #customer-care {
+        height: 25vmax;
+        width: 30vmax;
+    }
+}

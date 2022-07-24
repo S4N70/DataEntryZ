@@ -105,17 +105,19 @@ a, a:hover, a:focus, a:active {
     font-size: 29pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0 4% 2% 4%;
+    width: 100%;
 }
 
 /*elementi e immagini*/
 
 #ImgCentrata > img{
-    margin: 2% 2% 2% 45%;
+    margin: 2% auto 2% auto;
 }
 
 h3 {
     font-size: 5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-wrap: break-word;
 }
 
 #sfondo{
@@ -169,6 +171,12 @@ h3 {
 
     .social-svg {
         width: 3vmax;
+    }
+
+    .flex-box-secondpag > div {
+        font-size: 25pt;
+        margin: 0 auto 2% auto;
+        width: 80%;
     }
 }
 

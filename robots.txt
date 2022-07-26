@@ -1,0 +1,4 @@
+User-agent: googlebot
+Disallow: /terms_and_conditions.html
+
+Sitemap: http://www.example.com/sitemap.xml

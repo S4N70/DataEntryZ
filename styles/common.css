@@ -143,6 +143,10 @@ h3 {
 
 }
 
+#contact-us {
+    width: 100%;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 575.98px) {
